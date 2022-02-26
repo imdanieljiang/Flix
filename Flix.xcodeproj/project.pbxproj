@@ -115,8 +115,32 @@
 				13709350F85F54F90FF6D985 /* Pods-FlixTests.debug.xcconfig */,
 				834621448383706E16A6A124 /* Pods-FlixTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		659CDADB27CABBB900CFB73F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				65AEC74427C8700000AD173B /* MoviesViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		659CDADC27CABC7B00CFB73F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				65AEC77027C8B83500AD173B /* MovieCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		659CDADD27CABCBD00CFB73F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				65AEC74627C8700000AD173B /* Main.storyboard */,
+				65AEC74B27C8700100AD173B /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		65AEC73427C8700000AD173B = {
@@ -144,13 +168,12 @@
 		65AEC73F27C8700000AD173B /* Flix */ = {
 			isa = PBXGroup;
 			children = (
+				659CDADD27CABCBD00CFB73F /* Storyboards */,
+				659CDADC27CABC7B00CFB73F /* Cells */,
+				659CDADB27CABBB900CFB73F /* ViewControllers */,
 				65AEC74027C8700000AD173B /* AppDelegate.swift */,
 				65AEC74227C8700000AD173B /* SceneDelegate.swift */,
-				65AEC74427C8700000AD173B /* MoviesViewController.swift */,
-				65AEC77027C8B83500AD173B /* MovieCell.swift */,
-				65AEC74627C8700000AD173B /* Main.storyboard */,
 				65AEC74927C8700100AD173B /* Assets.xcassets */,
-				65AEC74B27C8700100AD173B /* LaunchScreen.storyboard */,
 				65AEC74E27C8700100AD173B /* Info.plist */,
 			);
 			path = Flix;
