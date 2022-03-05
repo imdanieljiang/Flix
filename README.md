@@ -16,7 +16,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### App Walkthrough GIF
 
-<img src="https://i.imgur.com/0lHGZgZ.gif" width=><br>
+<img src="https://i.imgur.com/0lHGZgZ.gif" width=''><br>
 
 ### Notes
 - I had some issues trying to space my movie poster ImageViews in the portrait/landscape orientation to my preference
